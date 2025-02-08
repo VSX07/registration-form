@@ -1,0 +1,73 @@
+.exam-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  strong {
+    color: #2c3e50;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    color: #16a085;
+    border-bottom: 2px solid #16a085;
+    padding-bottom: 5px;
+  }
+  
+  .exam-pattern li {
+    background-color: #f0f8ff;
+    padding: 8px;
+    margin: 6px 0;
+    border-left: 4px solid #16a085;
+  }
+  
+  .exam-pattern {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .exam-details-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+  

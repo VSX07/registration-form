@@ -1,0 +1,28 @@
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-button {
+    display: block; /* Make it a block element */
+    width: 50%; /* Full width of the container */
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    background-color: #333; /* Dark background for the button */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .register-button:hover {
+    background-color: #007bff; /* Change background color to blue on hover */
+    color: white; /* Ensure the text color stays white */
+    border-color: #007bff; /* Change border color on hover */
+  }
+  

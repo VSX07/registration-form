@@ -1,0 +1,27 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  /* Removed fixed positioning */
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-media a i {
+  font-size: 20px;
+}
